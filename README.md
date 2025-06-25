@@ -57,19 +57,45 @@ ev_adoption/
 ---
 
 ## 📈 Key Visualizations
+## 📈 Key Visualizations
 
 ### 🔹 EV Adoption by State
-![EV by State](fig_ev_by_state.png)
+![EV by State](./top_10_states_total_evs.png)
 
 ### 🔹 EV Type Distribution
-![EV Type](fig_ev_type_distribution.png)
+![EV Type](./evs_vs_charging_stations.png)
 
 ### 🔹 Charging Station Distribution
-![Charging](fig_charging_distribution.png)
+![Charging](./top_10_charging_stations.png)
 
-### 🔹 Forecasting EV Growth
+---
+
+## 🔮 Forecasting EV Growth
 Forecast generated using Prophet to project India's EV count for the next 3 years.
+![Forecast](./fig_forecast_total_ev.png)
+![Forecast Components](./fig_forecast_components.png)
 
+---
+
+## 🌍 Geospatial Insights
+
+### Static Map - EV Adoption
+![Map EV Adoption](./map_ev_adoption.png)
+
+### Interactive Map - Charging Stations
+👉 [Click to view interactive HTML map](./map_charging_stations.html)
+
+---
+
+## 💰 Cost-Benefit Analysis
+
+10-year total cost comparison of an EV vs Petrol car (₹ per km).
+
+### Simplified Model
+![Cost Comparison](./ev_vs_petrol_cost_comparison.png)
+
+### Realistic Model (includes battery replacement and charging infra access)
+![Realistic Cost Comparison](./step7_ev_vs_petrol_cost_realistic.png)
 ---
 
 ## 🌐 Geospatial Mapping
@@ -117,7 +143,7 @@ A 10-year ownership cost comparison of **EV vs Petrol vehicle**, with realistic 
 ```bash
 # Create virtual environment (optional but recommended)
 python -m venv venv
-venv\Scriptsctivate     # Windows
+venv\Scripts ctivate     # Windows
 
 # Install all libraries
 pip install -r requirements.txt
