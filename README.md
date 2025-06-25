@@ -117,7 +117,7 @@ A 10-year ownership cost comparison of **EV vs Petrol vehicle**, with realistic 
 ```bash
 # Create virtual environment (optional but recommended)
 python -m venv venv
-venv\Scripts ctivate     # Windows
+venv\Scriptsctivate     # Windows
 
 # Install all libraries
 pip install -r requirements.txt
